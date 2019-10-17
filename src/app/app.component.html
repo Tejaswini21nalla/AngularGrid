@@ -1,0 +1,13 @@
+<ag-grid-angular 
+    style="width:1500px; height:700px;" 
+    class="ag-theme-balham"
+    [rowData]="rowData" 
+    [columnDefs]="columnDefs"
+    [rowSelection]="rowSelection"
+    [singleClickEdit]="true"
+    (selectionChanged)="onSelectionChanged($event)"
+    (gridReady)="onGridReady($event)"
+    >
+</ag-grid-angular>
+<label style="margin-left: 20px;"> <button (click)="onBtExport()">Export to CSV</button> </label>
+    
