@@ -43,7 +43,7 @@ export class AppComponent {
     {headerName: 'Price', field: 'price'},
     {headerName : 'Comment' ,
      field : 'comment',
-     editable : iseditable(),
+     editable: true,
      /*cellEditor : 'agLargeTextCellEditor',
      cellEditorParams : {
        rows : 3,
